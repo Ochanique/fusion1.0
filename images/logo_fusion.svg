@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="225.558" viewBox="0 0 1280 225.558">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.461" y1="0.535" x2="0.844" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ef3e79"/>
+      <stop offset="1" stop-color="#f07563"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.325" y1="0.814" x2="0.756" y2="0.803" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe588c"/>
+      <stop offset="1" stop-color="#ff9981"/>
+    </linearGradient>
+  </defs>
+  <g id="logo_fusion" transform="translate(-0.311 -310.676)">
+    <path id="Path_2" data-name="Path 2" d="M1473.66,762.1c141.237-109.053,291.8-143.483,420.532-160.568,90.267-11.98,197.106-12.107,220.487-11.681,45.266-2.92,86.879-5.407,141.905-7.822s114.742-18.911,193.666-35.254V762.1Z" transform="translate(-1170.26 -236.099)" fill="url(#linear-gradient)"/>
+    <path id="Path_1" data-name="Path 1" d="M961.261,711.234c240.3-190.937,520.637-85.305,743.979-83.347S2241.26,517.241,2241.26,517.241v188l-1280,5.993Z" transform="translate(-960.949 -175)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

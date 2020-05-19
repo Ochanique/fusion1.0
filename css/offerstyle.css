@@ -1,0 +1,31 @@
+.offer{
+   
+    padding: 30px;
+}
+
+.offer button{
+    float: right;
+    position: relative;
+    top: -150px;
+}
+.offer h1{
+    font-size: 45px;
+}
+
+@media (max-width:700px) {
+
+    .offer{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .offer h1{
+        font-size: 35px;
+    }
+
+    .offer button{
+       right:300px;
+        top: 0px;
+    }
+}

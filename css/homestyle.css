@@ -1,0 +1,186 @@
+header{
+    height: 100px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+header ul {
+  display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #252525;
+    margin-right: 20px;
+ 
+}
+
+header .intro {
+    float: left;
+    width: 20%;
+   display: flex;
+    margin-bottom: 20px;
+}
+header .intro .logo img{
+    width: 150px;
+    height: 100px;
+    transform: scaleX(-1);
+    }
+
+.home{
+   
+    height: 700px;
+    margin-bottom: 50px;
+    background-image: url("../images/fusion_home.svg") ;
+    background-repeat: no-repeat;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+
+.hero h1{
+    font-size: 65px;
+}
+
+.hero h1,
+.hero .content,
+.hero button{
+    color: #252525;
+}
+
+.hero .btn{
+    display: flex;
+}
+.btn .btnsub{
+   width: 150px;  
+   height: 40px;
+   border-radius: 30px;
+    margin-right: 20px;
+    border: 1px solid #F63854;
+    text-transform: uppercase;
+    color: #F63854;
+    background-color: #ffffff;
+}
+
+.btn .btnsub:hover{
+    width: 150px;  
+    height: 40px;
+    border-radius: 30px;
+     margin-right: 20px;
+     border: 1px solid #F63854;
+     text-transform: uppercase;
+     color:#ffffff;
+     background-color: #F63854; 
+ }
+
+.home .hero img{
+    width: 600px;
+    float: right;
+    position: relative;
+    top: -300px;
+}
+
+@media (max-width:640px){
+
+
+    header{
+
+        height: 100px;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    
+    header ul {
+      display: flex;
+        justify-content: space-between;
+        float: right;
+    }
+    
+    header ul li {
+        list-style: none;
+    }
+    
+    header ul li a{
+        text-decoration: none;
+        color: #252525;
+        margin-right: 20px;
+     
+    }
+    
+    header .intro {
+        float: left;
+        width: 20%;
+       display: flex;
+        margin-bottom: 20px;
+    }
+    header .intro .logo img{
+        width: 150px;
+        height: 100px;
+        transform: scaleX(-1);
+        }
+    
+    .home{
+       
+        margin-bottom: 50px;
+        background-image: url("../images/fusion_home.svg") ;
+        background-repeat: no-repeat;
+    }
+    
+    .content{
+        margin-top: 20px;
+    }
+    
+    
+    .hero h1{
+        font-size: 35px;
+    }
+    
+    .hero h1,
+    .hero .content,
+    .hero button{
+        color: #252525;
+    }
+    
+    .hero .btn{
+        display: flex;
+    }
+    .btn .btnsub{
+       width: 150px;  
+       height: 40px;
+       border-radius: 30px;
+        margin-right: 20px;
+        border: 1px solid #F63854;
+        text-transform: uppercase;
+        color: #F63854;
+        background-color: #ffffff;
+    }
+    
+    .btn .btnsub:hover{
+        width: 150px;  
+        height: 40px;
+        border-radius: 30px;
+         margin-right: 20px;
+         border: 1px solid #F63854;
+         text-transform: uppercase;
+         color:#ffffff;
+         background-color: #F63854; 
+     }
+    
+.home .hero{
+    display: block;
+}
+
+    .home .hero img{
+        width: 0;
+    }
+
+
+}

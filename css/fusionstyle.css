@@ -1,0 +1,50 @@
+@import url('https://googleapis.com/css?family:Nunito:300,400,700');
+
+body {
+    
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito',sans-serif;
+    color: #252525
+}
+
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.body-wrapper{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.home,
+.services .serlist,
+.services .services-features,
+.team,
+.testimonial,
+.pricing{
+    padding: 30px;
+}
+
+.title h1,
+.feat-title h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.services-statistics button,
+.offer .caption button,
+.contact .contact-info button,
+.home button{
+    width: 150px;  
+    height: 40px;
+    border-radius: 30px;
+     margin-right: 20px;
+     border: 1px solid #F63854;
+     text-transform: uppercase;
+     color: #ffffff;
+     background-color: #F63854;
+ }
+

@@ -1,0 +1,166 @@
+.summary{
+    padding: 30px;
+    margin-top: 100px;
+    display: flex;
+    height: auto;
+   justify-content: space-evenly;
+}
+
+.summary .box{
+    display: block;
+  height: auto;
+    width:25%
+}
+
+.summary #box1,
+.summary #box4{
+    height: 550px;
+      widows: 30%
+  }
+
+.summary .intro {
+    width: 100%;
+   display: flex;
+    margin-bottom: 20px;
+}
+
+.summary .intro .logo img{
+width: 150px;
+height: 100px;
+transform: scaleX(-1);
+}
+
+.summary h1{
+    font-size: 25px;
+}
+
+.summary .name h1{
+    font-size: 30px;
+    color: #F63854;
+}
+
+.summary .name {
+    position: relative;
+    top: 2px;
+}
+
+.summary .social-icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary .social-icons img{
+   
+    width: 24px;
+    height: 24px;
+}
+
+.summary .wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.summary .wrapper .text {
+  position: relative;
+  top: -25px;
+  right: 30px;
+   
+}
+
+.summary .wrapper #wrapper2-text {
+    position: relative;
+    top: -20px;
+    right: 75px;
+     
+  }
+
+  .summary .wrapper #wrapper3-text {
+    position: relative;
+    top: -20px;
+    right: 75px;
+     
+  }
+  .summary .wrapper .icon{
+  position: relative;
+  top: 0px;
+  right: 30px;
+
+}
+
+.summary .wrapper #wrapper2-icon{
+    position: relative;
+    top: 0px;
+    right:45px;
+  }
+
+  .summary .wrapper #wrapper3-icon{
+    position: relative;
+    top: 0px;
+    right:45px;
+  }
+.summary .wrapper .icon img{
+    width: 24px;
+    height: 24px;
+   
+}
+
+footer hr {
+    width: 95%;
+    justify-self: center;
+    border: 2px solid #ebebeb;
+    margin-top: 80px;
+   
+}
+
+
+footer p{
+    text-align: center;
+    color: #252525;
+    padding: 30px 0;
+    
+}
+
+footer span{
+    color: #F63854;
+}
+
+@media (max-width: 700px) {
+    .summary{
+        padding: 30px;
+        height: auto;
+        margin-top: 100px;
+        display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 20px;
+      
+    }
+    .summary .box{
+     display: block;
+      height: auto;
+        width:300px;
+        border: 5px solid #ebebeb;
+        padding: 30px;
+    }
+
+.summary #box1,
+.summary #box4{
+    height: auto;
+      widows: 30%
+  }
+
+footer{
+padding: 10px;
+}
+
+footer hr {
+justify-self: left; 
+ 
+}
+
+footer p{
+    text-align: left;
+
+}
+
+
+}
